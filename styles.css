@@ -1,0 +1,73 @@
+header, footer {
+  background-color: #a090be; /* Light Blue color */
+  padding: 5px;
+  text-align: left;
+}
+body {
+  margin: 20px;
+  padding: 20px;
+  font-family: Arial Bold, sans-serif,;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+main {
+  background-color: #f0f0f0;
+  padding: 50px;
+  border-radius: 5px;
+}
+h1 {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+h2 {
+  font-size: 30px;
+  display: inline-block;
+  margin-right: 70px;
+}
+ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+}
+li {
+  display: inline-block;
+  margin-right: 50px;
+}
+li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.image-container {
+  display: flex;
+  gap: 20px; /* Adjust the gap between images */
+}
+
+.image-description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.image-description img {
+  width: 100%; /* Ensure images take up full width of their container */
+  max-width: 300px; /* Adjust max-width as needed */
+}
+
+/* Apply black color to all links */
+a {
+  color: black;
+  text-decoration: none; /* Optionally remove underline */
+}
+#weather-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7; /* Adjust the opacity as needed */
+}
